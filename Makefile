@@ -15,3 +15,6 @@ package-install: # установить пакет из операционной
 
 package-reinstall: # переустановить пакет
 	python3 -m pip install --upgrade --force-reinstall dist/*.whl
+
+lint: # запустить проверку линтером
+	poetry run flake8 brain_games
