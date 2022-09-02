@@ -12,3 +12,6 @@ publish: # отладить публикацию, чтобы не добавля
 
 package-install: # установить пакет из операционной системы
 	python3 -m pip install --user dist/*.whl
+
+package-reinstall: # переустановить пакет
+	python3 -m pip install --upgrade --force-reinstall dist/*.whl
