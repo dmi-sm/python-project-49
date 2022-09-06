@@ -1,28 +1,21 @@
-import prompt
 from random import randint
 from brain_games.games.welcome_user import welcome_user
+from brain_games.games.game_engine import game
+from brain_games.games.Сonstant import WINSCORE
 
 
-def check_even(number):
-    correct_answer = 'yes' if number % 2 == 0 else 'no'
-    return correct_answer
+def right_answer(result):
+    right_answer = 'yes' if result % 2 == 0 else 'no'
+    return right_answer
 
 
 def is_even():
+    user_score = 0
     name = welcome_user()
     print('Answer "yes" if the number is even, otherwise answer "no"')
-    i = 0
-    while i < 3:
-        i += 1
-        number = randint(1, 10)
-        print(f'Question: {number}')
-        user_answer = prompt.string('Your answer: ').lower()
-        if user_answer == check_even(number):
-            print('Correct!')
+    while user_score < WINSCORE + 1:
+        result = randint(1, 10)
+        if game(result, right_answer(result), name, user_score) == True:
+            user_score += 1
         else:
-            print(f'"{user_answer}" is wrong answer ;(. '
-                  f'Correct answer was "{check_even(number)}"')
-            print(f'Let\'s try again, {name}!')
             break
-    if i == 3:
-        print(f'Congratulations, {name}!')
