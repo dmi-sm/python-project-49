@@ -8,4 +8,4 @@
 <script id="asciicast-6jNaGgeb5FtuF7x4lcygi8nUA" src="https://asciinema.org/a/6jNaGgeb5FtuF7x4lcygi8nUA.js" async></script>
 
 ### Asciinema 'calc'
-<script id="asciicast-NmErMKkLVJB9fygNFwC1hEOro" src="https://asciinema.org/a/NmErMKkLVJB9fygNFwC1hEOro.js" async></script>
+<a href="https://asciinema.org/a/NmErMKkLVJB9fygNFwC1hEOro" target="_blank"><img src="https://asciinema.org/a/NmErMKkLVJB9fygNFwC1hEOro.svg" /></a>
