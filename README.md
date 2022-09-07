@@ -9,3 +9,6 @@
 
 ### Asciinema 'calc'
 <a href="https://asciinema.org/a/NmErMKkLVJB9fygNFwC1hEOro" target="_blank"><img src="https://asciinema.org/a/NmErMKkLVJB9fygNFwC1hEOro.svg" /></a>
+
+### Asciinema 'gcd'
+<a href="https://asciinema.org/a/Afo3zU5LQcE2HvRlIILY8wpWO" target="_blank"><img src="https://asciinema.org/a/Afo3zU5LQcE2HvRlIILY8wpWO.svg" /></a>
