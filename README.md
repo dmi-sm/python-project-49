@@ -15,3 +15,6 @@
 
 ### Asciinema 'progression'
 <a href="https://asciinema.org/a/ATkPl93VOiwnG1PydzGRXn6Fj" target="_blank"><img src="https://asciinema.org/a/ATkPl93VOiwnG1PydzGRXn6Fj.svg" /></a>
+
+### Asciinema 'is_prime'
+<a href="https://asciinema.org/a/l0NogAnR5dqIjyrhCb9qtO6wV" target="_blank"><img src="https://asciinema.org/a/l0NogAnR5dqIjyrhCb9qtO6wV.svg" /></a>
