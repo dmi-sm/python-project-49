@@ -12,3 +12,6 @@
 
 ### Asciinema 'gcd'
 <a href="https://asciinema.org/a/Afo3zU5LQcE2HvRlIILY8wpWO" target="_blank"><img src="https://asciinema.org/a/Afo3zU5LQcE2HvRlIILY8wpWO.svg" /></a>
+
+### Asciinema 'progression'
+<a href="https://asciinema.org/a/ATkPl93VOiwnG1PydzGRXn6Fj" target="_blank"><img src="https://asciinema.org/a/ATkPl93VOiwnG1PydzGRXn6Fj.svg" /></a>
