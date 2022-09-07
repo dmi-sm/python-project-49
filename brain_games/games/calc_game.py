@@ -31,7 +31,7 @@ def calc():
         first_operand = randint(1, 10)
         second_operand = randint(1, 10)
         result = f'{first_operand} {operand} {second_operand}'
-        if game(result, right_answer(result), name, user_score) == True:
+        if game(result, right_answer(result), name, user_score):
             user_score += 1
         else:
             break

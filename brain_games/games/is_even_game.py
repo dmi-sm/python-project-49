@@ -15,7 +15,7 @@ def is_even():
     print('Answer "yes" if the number is even, otherwise answer "no"')
     while user_score < WINSCORE + 1:
         result = randint(1, 10)
-        if game(result, right_answer(result), name, user_score) == True:
+        if game(result, right_answer(result), name, user_score):
             user_score += 1
         else:
             break
