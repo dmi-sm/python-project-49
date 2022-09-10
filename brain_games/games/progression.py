@@ -16,4 +16,5 @@ def game():
     task = progression(start_progression, step_progression, length_progression)
     answer = task[missing_number_index]
     task[missing_number_index] = '..'
+    task = ' '.join(task)
     return (task, answer)
