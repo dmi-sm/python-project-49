@@ -4,8 +4,9 @@ GAME_RULE = 'What number is missing in the progression?'
 
 
 def progression(start_progression, step_progression, length_progression):
-    return [str(i) for i in range(start_progression, start_progression +
-            length_progression * step_progression, step_progression)]
+    return [str(i) for i in range(start_progression,
+            start_progression + length_progression * step_progression,
+            step_progression)]
 
 
 def game():

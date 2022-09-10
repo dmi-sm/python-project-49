@@ -3,10 +3,10 @@ from random import randint, choice
 
 GAME_RULE = 'What is the result of the expression?'
 OPERATORS = {
-        '+': add,
-        '-': sub,
-        '*': mul,
-    }
+    '+': add,
+    '-': sub,
+    '*': mul,
+}
 
 
 def calc(operator, first_operand, second_operand):
