@@ -10,7 +10,7 @@ build: # собрать пакет
 publish: # отладить публикацию, чтобы не добавлять пакет в каталог PyPI
 	poetry publish --dry-run
 
-package-install: # установить пакет из операционной системы
+package-install: # установить пакет в окружение пользователя
 	python3 -m pip install --user dist/*.whl
 
 package-reinstall: # переустановить пакет
@@ -18,3 +18,6 @@ package-reinstall: # переустановить пакет
 
 lint: # запустить проверку линтером
 	poetry run flake8 brain_games
+
+package-uninstall: # удалить пакет из окружения пользователя
+	python3 -m pip uninstall dist/*.whl
