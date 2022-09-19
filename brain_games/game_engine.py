@@ -1,6 +1,6 @@
 import prompt
 
-WINSCORE = 3
+ROUNDS_TOTAL = 3
 
 
 def welcome_user():
@@ -11,21 +11,15 @@ def welcome_user():
 
 
 def run_game(game):
-    user_score = 0
     name = welcome_user()
     print(game.GAME_RULE)
-    while user_score < WINSCORE:
-        task, answer = game.game()
+    for _ in range(ROUNDS_TOTAL):
+        task, answer = game.get_question_and_answer()
         print(f'Question: {task}')
         user_answer = prompt.string('Your answer: ')
-        if user_answer == answer:
-            print('Correct!')
-            user_score += 1
-        else:
-            print(f'"{user_answer}" is wrong answer ;(.'
-                  f' Correct answer was "{answer}".'
-                  f'\nLet\'s try again, {name}!')
-            break
-    if user_score == WINSCORE:
-        print(f'Congratulations, {name}!')
-        return
+        if user_answer != answer:
+            return print(f'"{user_answer}" is wrong answer ;(.'
+                         f' Correct answer was "{answer}".'
+                         f'\nLet\'s try again, {name}!')
+        print('Correct!')
+    return print(f'Congratulations, {name}!')

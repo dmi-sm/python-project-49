@@ -1,10 +1,16 @@
 [tool.poetry]
 name = "hexlet-code"
-version = "0.1.0"
-description = ""
+version = "0.2.0"
+description = "The project consists of five console mini-games."
 authors = ["Dmitrii Mikailov <dmi.sm.rf@yandex.ru>"]
+repository = "https://github.com/dmi-sm/python-project-49"
 packages = [
   { include = "brain_games" },
+]
+
+classifiers = [
+    "Topic :: Software Development :: Build Tools",
+    "Topic :: Software Development :: Libraries :: Python Modules"
 ]
 
 [tool.poetry.dependencies]
