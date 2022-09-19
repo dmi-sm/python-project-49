@@ -5,7 +5,7 @@ from brain_games.game_engine import run_game
 
 
 def main():
-    return run_game(progression)
+    run_game(progression)
 
 
 if __name__ == '__main__':
