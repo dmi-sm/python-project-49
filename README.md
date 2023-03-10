@@ -1,4 +1,4 @@
-### Hexlet tests and linter status and maintainability
+### Hexlet tests status and maintainability
 [![Actions Status](https://github.com/dmi-sm/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/dmi-sm/python-project-49/actions)
 <a href="https://codeclimate.com/github/dmi-sm/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/be15afea9795d22ab2f3/maintainability" /></a>
 
